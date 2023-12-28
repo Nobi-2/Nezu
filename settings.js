@@ -3,12 +3,12 @@ const chalk = require("chalk");
 require("dotenv").config();
 let gg = process.env.MODS;
 if (!gg) {
-  gg = "917003213983, 923087880256";
+  gg = "919174493135, 919179603804";
 }
 
 global.owner = gg.split(",");
 global.mongodb = process.env.MONGODB || "none";
-global.prefa = process.env.PREFIX || ".";
+global.prefa = process.env.PREFIX || "-";
 global.ggle = process.env.GOOGLE_API || "none";
 global.wter = process.env.WEATHER_API || "none";
 global.sessionId = process.env.SESSION_ID || "NEZUKO";
